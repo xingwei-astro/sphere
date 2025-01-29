@@ -1,0 +1,5 @@
+gfortran -o pre1 pre1.f nag.f
+./pre1
+gfortran -o pre2 pre2.f nag.f
+./pre2
+ifort -O3 -qopenmp -o main main-openmp.f
